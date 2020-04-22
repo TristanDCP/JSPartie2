@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partie 2 Exercice 4 JS</title>
+</head>
+
+<body>
+
+    <h1>Exercice 4</h1>
+    <p>Demander une note à l'utilisateur :
+
+        Si elle est entre 0 et 3 afficher Nul
+        Si elle est entre 4 et 6 afficher Moyen
+        Si elle est entre 8 et 9 afficher Bien
+        Si elle est égale à 10 afficher Excellent</p>
+
+    <script>
+        var number = prompt("Note :");
+
+        if (number >= 0 && number < 3) {
+            alert("Nul");
+        } 
+        
+        else if(number >= 4 && number <= 6) {
+            alert("Moyen");
+        }
+
+        else if(number == 7) {
+            alert("CHEH");
+        }
+
+        else if(number >= 8 && number < 9) {
+            alert("Bien");
+        }
+
+        else if(number == 10) {
+            alert("Excellent");
+        }
+    </script>
+
+</body>
+
+</html>
